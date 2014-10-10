@@ -45,7 +45,7 @@ lines(data$date_time, data$Global_active_power, type = "l")
 
 #draw plot 2
 plot(data$date_time, data$Voltage, type = "n", 
-     ylab = "Global Active Power", xlab = "datetime")
+     ylab = "Voltage", xlab = "datetime")
 lines(data$date_time, data$Voltage, type = "l")
 
 #draw plot 3
@@ -59,7 +59,7 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
 
 #draw plot 4
 plot(data$date_time, data$Global_reactive_power, type = "n", 
-     ylab = "Global Active Power", xlab = "datetime")
+     ylab = "Global_active_power", xlab = "datetime")
 lines(data$date_time, data$Global_reactive_power, type = "l")
 
 # Close the device
